@@ -13,17 +13,17 @@
 <body>
 <div class="conteiner">
     <header>Fale Conosco</header>
-    <form action="#">
+    <form action="#" method="post">
         <div class="campo-duplo">
             <div class="campo">
                 <label>
-                    <input type="text" name="nome" placeholder="Seu nome">
+                    <input type="text" name="nome" placeholder="Seu nome" required>
                 </label>
                 <i class='fas fa-user'></i>
             </div>
             <div class="campo">
                 <label>
-                    <input type="text" name="email" placeholder="Seu email">
+                    <input type="email" name="email" placeholder="Seu email" required>
                 </label>
                 <i class='fas fa-envelope'></i>
             </div>
@@ -31,24 +31,24 @@
         <div class="campo-duplo">
             <div class="campo">
                 <label>
-                    <input type="text" name="telefone" placeholder="Contacto telefónico">
+                    <input type="tel" name="telefone" placeholder="Contacto telefónico" required>
                 </label>
                 <i class='fas fa-phone-alt'></i>
             </div>
             <div class="campo">
                 <label>
-                    <input type="text" name="site" placeholder="Seu site">
+                    <input type="url" name="site" placeholder="Seu site">
                 </label>
                 <i class='fas fa-globe'></i>
             </div>
         </div>
         <div class="mensagem">
             <label>
-                <textarea placeholder="Escreva a sua mensagem" name="mensagem"></textarea>
+                <textarea placeholder="Escreva a sua mensagem" name="mensagem" required></textarea>
             </label>
-            <i class="material-icons">Mensagem</i>
+            <i class="fas fa-envelope-open-text"></i>
         </div>
-        <div class="button-area">
+        <div class="area-botao">
             <button type="submit" name="enviar">Enviar Mensagem</button>
             <span></span>
         </div>
