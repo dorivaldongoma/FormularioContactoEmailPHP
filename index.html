@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário de Contacto | Dorivaldo Ngoma</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Dorivaldo Ngoma">
+    <meta name="description" content="Formulário de Contacto funcional com PHP">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+<div class="conteiner">
+    <header>Fale Conosco</header>
+    <form action="#">
+        <div class="campo-duplo">
+            <div class="campo">
+                <label>
+                    <input type="text" name="nome" placeholder="Seu nome">
+                </label>
+                <i class='fas fa-user'></i>
+            </div>
+            <div class="campo">
+                <label>
+                    <input type="text" name="email" placeholder="Seu email">
+                </label>
+                <i class='fas fa-envelope'></i>
+            </div>
+        </div>
+        <div class="campo-duplo">
+            <div class="campo">
+                <label>
+                    <input type="text" name="telefone" placeholder="Contacto telefónico">
+                </label>
+                <i class='fas fa-phone-alt'></i>
+            </div>
+            <div class="campo">
+                <label>
+                    <input type="text" name="site" placeholder="Seu site">
+                </label>
+                <i class='fas fa-globe'></i>
+            </div>
+        </div>
+        <div class="mensagem">
+            <label>
+                <textarea placeholder="Escreva a sua mensagem" name="mensagem"></textarea>
+            </label>
+            <i class="material-icons">Mensagem</i>
+        </div>
+        <div class="button-area">
+            <button type="submit" name="enviar">Enviar Mensagem</button>
+            <span></span>
+        </div>
+    </form>
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
